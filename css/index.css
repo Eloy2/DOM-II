@@ -350,3 +350,22 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.map {
+  transition: 0.5s;
+  overflow: hidden;
+}
+.map:hover {
+  filter: blur(1.5rem);
+}
+form {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.bottom {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
